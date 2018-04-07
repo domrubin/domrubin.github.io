@@ -1,0 +1,11 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:inherit;
+	font-weight:inherit;
+	font-family:inherit;		//font used
+	text-decoration:inherit;	//used to underline
+	line-height:inherit;		//used for line spacing
+	color:inherit;
+}
