@@ -1,29 +1,37 @@
 *{
-	margin:0;
-	padding:0;
-	border:0;
-	font-size:inherit;
-	font-weight:inherit;
-	font-family:inherit;		//font used
-	text-decoration:inherit;	//used to underline
-	line-height:inherit;		//used for line spacing
-	color:inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;		//font used
+	text-decoration: inherit;	//used to underline
+	line-height: inherit;		//used for line spacing
+	color: inherit;
 }
 html, body{
 	font-family: "Franklin Gothic", Helvetica, sans-serif;
-	font-size:18px;
-	font-height:30px;
-	color:#444;
-	text-shadow:1px 1px 0px #fff
+	font-size: 18px;
+	font-height: 30px;
+	color: #444;
+	text-shadow: 1px 1px 0px #fff
 }
 body{
 	text-align:center;
 }
 h1{
-	font-size:36px;
-	line-height:50px;
-	font-weight:bold;
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: bold;
 }
 img{
 	border-radius:50%;		//allows for curved edges on images, can be px or %
+}
+
+.hero{
+	outline: 1px solid blue;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;		//tells content where to orient itself
 }
