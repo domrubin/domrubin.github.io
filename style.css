@@ -28,10 +28,30 @@ img{
 	border-radius:50%;		//allows for curved edges on images, can be px or %
 }
 
+section{
+	max-width: 800px;
+	border-top: 2px dashed #444;
+	padding:50px 0;
+	margin: 0 auto;
+}
+
 .hero{
-	outline: 1px solid blue;
-	height: 100vh;
+	//outline: 1px solid blue;
+	border:0;
+	padding: 0;
+	height: 75vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;		//tells content where to orient itself
+
+}
+
+.headshot{
+	//transition:transform 1s;
+	//border-radius:50%;
+}
+
+.headshot:hover{
+	//transform:rotate(360deg);
+	//box-shadow: 0px 0px 100px 50px #fc0;
 }
