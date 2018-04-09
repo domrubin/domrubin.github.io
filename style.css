@@ -24,12 +24,19 @@ h1{
 	line-height: 50px;
 	font-weight: bold;
 }
+
+h2{
+	font-size: 24px;
+	line-height: 25px;
+}
+
 img{
 	border-radius:50%;		//allows for curved edges on images, can be px or %
+	//max-height:50%;
 }
 
 section{
-	max-width: 800px;
+	max-width: 1200px;
 	border-top: 2px dashed #444;
 	padding:50px 0;
 	margin: 0 auto;
@@ -46,6 +53,7 @@ section{
 
 }
 
+
 .headshot{
 	//transition:transform 1s;
 	//border-radius:50%;
@@ -54,4 +62,39 @@ section{
 .headshot:hover{
 	//transform:rotate(360deg);
 	//box-shadow: 0px 0px 100px 50px #fc0;
+}
+
+.blocklist > li{
+	display:flex;
+	justify-content: center;
+	border-style:solid;
+	border-width:20px;
+	border-color:#fff #A1BBD2;
+	//border:20px solid #A1BBD2;
+	//outline:1px solid red;
+}
+
+.blocklist > li > div{
+	align-self: center;
+	//outline:1px solid blue;
+	flex-grow:1;
+}
+
+.blocklist > li > img{
+	border-radius:45%;
+	margin: 0 10px;
+	//width: 300px;
+	//height: 300px;
+}
+
+.blocklist > li:nth-child(odd){
+	flex-direction: row;
+	text-align: left;
+	border-left-width:0;
+}
+
+.blocklist > li:nth-child(even){
+	flex-direction: row-reverse;
+	text-align: right;
+	border-right-width:0;
 }
