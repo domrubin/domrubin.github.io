@@ -30,6 +30,12 @@ h2{
 	line-height: 25px;
 }
 
+h3{
+	font-size: 42px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
 img{
 	border-radius:50%;		//allows for curved edges on images, can be px or %
 	//max-height:50%;
@@ -38,7 +44,7 @@ img{
 section{
 	max-width: 1200px;
 	border-top: 2px dashed #444;
-	padding:50px 0;
+	padding:25px 0;
 	margin: 0 auto;
 }
 
@@ -46,7 +52,7 @@ section{
 	//outline: 1px solid blue;
 	border:0;
 	padding: 0;
-	height: 75vh;
+	height: 65vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;		//tells content where to orient itself
@@ -97,4 +103,8 @@ section{
 	flex-direction: row-reverse;
 	text-align: right;
 	border-right-width:0;
+}
+
+.prose{
+	text-align:justify;
 }
